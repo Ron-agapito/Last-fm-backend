@@ -16,7 +16,7 @@ class LastfmImport extends Command
     protected $signature = 'lastfm:import';
 
     protected $page = 10;
-    protected $sleepSeconds = 2;
+    protected $sleepSeconds = 1;
 
     /**
      * The console command description.
